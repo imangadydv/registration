@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <div class="title">
+                <h2>Welcome to RFP System!</h2>
+                <h4>Register as a vendor</h4>
+            </div>
+            
+            <form action="#" class="login-form" id="email-form">
+                <div class="field">
+                    <label for="firstname">First name<span style="color:red"> *</span></label>
+                    <input type="text" name="firstname" id="firstname" placeholder="Enter First Name" required>
+                    <span id="firstname-error" class="error"></span>
+                </div>
+                <div class="field">
+                    <label for="lastname">Last name<span style="color:red"> *</span></label>
+                    <input type="text" name="lastname" id="lastname" placeholder="Enter Last Name" required>
+                    <span id="lastname-error" class="error"></span>
+                </div>
+                <div class="field">
+                    <label for="email">Email<span style="color:red"> *</span></label>
+                    <input type="text" name="email" id="email" placeholder="Enter Email" required>
+                    <span id="email-error" class="error"></span>
+                </div>
+                <div class="field">
+                    <label for="password">Password<span style="color:red"> *</span></label>
+                    <input type="password" name="password" id="password" placeholder="Enter Password" required>
+                </div>
+                <div class="field">
+                    <label for="confirm-password">Confirm Password<span style="color:red"> *</span></label>
+                    <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password" required>
+                </div>
+                <div class="field">
+                    <label for="revenue">Revenue (Last 3 years)<span style="color:red"> *</span></label>
+                    <input type="number" name="revenue" id="revenue" placeholder="Enter Revenue" required>
+                </div>
+                <div class="field">
+                    <label for="employees">No Of Employees<span style="color:red"> *</span></label>
+                    <input type="number" name="employees" id="employees" placeholder="Enter Employees" required>
+                </div>
+                <div class="field">
+                    <label for="gst">GST No<span style="color:red"> *</span></label>
+                    <input type="text" name="gst" id="gst" placeholder="Enter GST" required>
+                    <span id="gst-error" class="error"></span>
+                </div>
+                <div class="field">
+                    <label for="pan">PAN No<span style="color:red"> *</span></label>
+                    <input type="text" name="pan" id="pan" placeholder="Enter PAN No" required>
+                </div>
+                <div class="field">
+                    <label for="phoneno">Phone No<span style="color:red"> *</span></label>
+                    <input type="text" name="phoneno" id="phoneno" placeholder="Enter Phone No" required>
+                </div>
+                <div class="menu">
+                    <label for="category">Categories<span style="color:red"> *</span></label>
+                    <select name="category" id="category" required multiple>
+                        <option value="1">Category 1</option>
+                        <option value="2">Category 2</option>
+                        <option value="3">Category 3</option>
+                        <option value="4">Category 4</option>
+                    </select>
+                </div>   
+                <button type="submit" class="btn">Register</button>    
+            </form>
+        </div>
+    </div>
+    <p class="para">@CopyRight <span style="color: red;">♥ </span>RFP System</p>
+    <script src="script.js"></script>
+</body>
+</html>
